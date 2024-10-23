@@ -1,0 +1,22 @@
+*, *::after, *::before {
+  margin: 0; padding: 0; border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+button, input {
+  font-size: inherit;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
